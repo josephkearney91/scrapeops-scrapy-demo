@@ -1,7 +1,7 @@
 # settings.py
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
-load_dotenv()
+#load_dotenv()
 
 BOT_NAME = 'scrapy_demo'
 
