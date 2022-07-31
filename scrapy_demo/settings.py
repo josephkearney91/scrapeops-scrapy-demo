@@ -1,4 +1,7 @@
 # settings.py
+from dotenv import load_dotenv
+
+load_dotenv()
 
 BOT_NAME = 'scrapy_demo'
 
@@ -18,5 +21,6 @@ DOWNLOADER_MIDDLEWARES = {
 'scrapeops_scrapy.middleware.retry.RetryMiddleware': 550,
 'scrapy.downloadermiddlewares.retry.RetryMiddleware': None,
 }
+
 
 
